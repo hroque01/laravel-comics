@@ -14,10 +14,9 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('Prodotti');
+    return view('/pages/Prodotti');
 });
 
 Route::get('/prodotto', function () {
-    return view('Prodotto');
+    return view('/pages/Prodotto');
 });
-

@@ -2,6 +2,6 @@
 <html lang="en">
     @vite('resources/js/app.js')
 <body>
-    @yield('main')
+    @yield('footer')
 </body>
 </html>
