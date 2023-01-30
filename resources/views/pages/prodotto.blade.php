@@ -55,16 +55,18 @@
         </section>
 
         <section>
-            <div class="cards">
-                <div class="card">
-                    <a href="prodotto">
-                        <div>
-                            <img src="https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2018/09/AC1000_DLX_162-001_HD_5ba13723281ab0.37845353.jpg?itok=ZsI-C5eX">
-                        </div>
-                        <h4>ACTION COMICS</h4>
-                    </a>
-                </div>
-            </div>
+            <h1>card</h1>
+            <h1>card</h1>
+            <h1>card</h1>
+            <h1>card</h1>
+            <h1>card</h1>
+            <h1>card</h1>
+            <h1>card</h1>
+            <h1>card</h1>
+            <h1>card</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque in obcaecati rerum fugit ad officia, culpa laudantium atque nemo voluptatum corporis, ab eos, doloribus ut. Tempora eos blanditiis voluptatem non! Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita temporibus dolores minima veniam adipisci, vel minus, saepe quidem, doloremque nostrum mollitia voluptatem ipsa commodi molestiae iste. Maxime, nobis molestiae. Cumque.
+            </p>
         </section>
 
         <section class="merch">
