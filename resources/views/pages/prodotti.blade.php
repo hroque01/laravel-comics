@@ -3,40 +3,43 @@
 @section('footer')
     <footer class="bg-footer">
         <div class="container-fluid">
-            <div class="container d-flex">
-                <div class="button-sign">
-                    <h1>SIGN UP!</h1>
+            <div class="container d-flex justify-content-between">
+                <div class="container d-flex justify-content-between my-5">
+                    <div class="button-sign font-white d-flex align-items-center">
+                        <h3>SIGN UP!</h3>
+                    </div>
+                    <div class="d-flex align-items-center">
+                        <h3 class="font-azul">FOLLOW US!</h3>
+                        <ul class="d-flex text-align-center align-items-center">
+                            <li class="mx-2">
+                                <a href="">
+                                    <img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="">
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="">
+                                    <img src="{{Vite::asset('resources/img/footer-periscope.png')}}" alt="">
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="">
+                                    <img src="{{Vite::asset('resources/img/footer-pinterest.png')}}" alt="">
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="">
+                                    <img src="{{Vite::asset('resources/img/footer-twitter.png')}}" alt="">
+                                </a>
+                            </li>
+                            <li class="mx-2">
+                                <a href="">
+                                    <img src="{{Vite::asset('resources/img/footer-youtube.png')}}" alt="">
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </div>
-                <div>
-                    <h1>FOLLOW US!</h1>
-                    <ul>
-                        <li>
-                            <a href="">
-                                <img src="{{Vite::asset('resources/img/footer-facebook.png')}}" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="{{Vite::asset('resources/img/footer-periscope.png')}}" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="{{Vite::asset('resources/img/footer-pinterest.png')}}" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="{{Vite::asset('resources/img/footer-twitter.png')}}" alt="">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="{{Vite::asset('resources/img/footer-youtube.png')}}" alt="">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+                
             </div>
         </div>
     </footer>
